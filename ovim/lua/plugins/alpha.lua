@@ -9,39 +9,39 @@ return {
 		vim.api.nvim_set_hl(0, "AlphaButtonContainer", { bg = "#1E1E2E" }) -- DarkBlue
 
 		-- Set the buttons
-		local buttons = {
-			type = "group",
-			val = {
-				{
-					type = "button",
-					val = "  New File",
-					on_press = function()
-						vim.cmd("ene!")
-					end,
-					opts = {
-						key = "n",
-						position = "center",
-						hl = "AlphaButton",
-					},
-				},
-				{
-					type = "button",
-					val = "󰩈 Quit",
-					on_press = function()
-						vim.cmd("qa") -- Quit Neovim
-					end,
-					opts = {
-						key = "q",
-						position = "center",
-						hl = "AlphaButton",
-					},
-				},
-			},
-			opts = {
-				spacing = 1,
-				hl = "AlphaButtonContainer",
-			},
-		}
+		-- local buttons = {
+		-- 	type = "group",
+		-- 	val = {
+		-- 		{
+		-- 			type = "button",
+		-- 			val = "  New File",
+		-- 			on_press = function()
+		-- 				vim.cmd("ene!")
+		-- 			end,
+		-- 			opts = {
+		-- 				key = "n",
+		-- 				position = "center",
+		-- 				hl = "AlphaButton",
+		-- 			},
+		-- 		},
+		-- 		{
+		-- 			type = "button",
+		-- 			val = "󰩈 Quit",
+		-- 			on_press = function()
+		-- 				vim.cmd("qa") -- Quit Neovim
+		-- 			end,
+		-- 			opts = {
+		-- 				key = "q",
+		-- 				position = "center",
+		-- 				hl = "AlphaButton",
+		-- 			},
+		-- 		},
+		-- 	},
+		-- 	opts = {
+		-- 		spacing = 1,
+		-- 		hl = "AlphaButtonContainer",
+		-- 	},
+		-- }
 
 		-- Set the header
 		-- Change header based on the screen size
@@ -96,7 +96,7 @@ return {
 			local version = vim.version()
 			local nvim_version_info = string.format(" v%d.%d.%d", version.major, version.minor, version.patch)
 
-			return "  " .. datetime .. "  󰏗 " .. plugin_count .. " plugins  " .. nvim_version_info .. "  "
+			return "  󰏗 " .. plugin_count .. " plugins  " .. nvim_version_info .. "  "
 		end
 
 		local info_block = {
@@ -115,7 +115,7 @@ return {
 			{ type = "padding", val = 1 },
 			info_block,
 			{ type = "padding", val = 3 },
-			buttons,
+			--buttons,
 		}
 
 		local config = {

@@ -8,7 +8,9 @@
 # ===
 
 export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH"
-export PATH=$PATH:/Users/tito/.spicetify
+
+# obsidian
+export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 
 # homebrew
 export PATH="/opt/homebrew/opt/python@2/libexec/bin:$PATH"
@@ -23,6 +25,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 # scripts
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
+source $XDG_CONFIG_HOME/scripts/processing.zsh
 #source $XDG_CONFIG_HOME/scripts/theme.sh
 #set_global_theme
 #alias theme='change_global_theme'
@@ -37,6 +40,7 @@ export MANPATH=$MANPATH:/opt/homebrew/share/man
 export DOTFILES="$HOME/dotfiles"
 export ZSH="$DOTFILES/zsh"
 export EDITOR="/opt/homebrew/bin/nvim"
+export FUNCNEST=100000
 # colors in tmux
 export TERM="xterm-256color"
 
@@ -96,14 +100,17 @@ alias t="tmux"
 alias f="fzf"
 alias nv="nvim"
 alias ov="NVIM_APPNAME=ovim nvim"
-alias ls="lsd -l"
+alias ls="lsd"
+alias ll="lsd -l"
 alias lsa="lsd -la"
+alias lst="lsd -t"
 alias py="python3"
 alias cd="z"
 
 # other
 alias findwifipass="security find-generic-password -wa"
-
+alias unixtime="date +%s |pbcopy"
+#alias pandoc="pandoc -V geometry:\"top=3cm, bottom=4cm, left=2.5cm, right=3cm\""
 
 
 # ===

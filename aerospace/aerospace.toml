@@ -182,7 +182,8 @@ alt-i = 'exec-and-forget open -a /Applications/Claude.app'
     run = 'move-node-to-workspace 3'
 [[on-window-detected]]
     if.app-id = 'com.anthropic.claudefordesktop'
-    run = 'move-node-to-workspace 3'
+    run = 'layout floating'
+  
 
 [[on-window-detected]]
     if.app-id = 'com.todoist.mac.Todoist'

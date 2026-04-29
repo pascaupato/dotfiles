@@ -7,6 +7,12 @@
 # ENV
 # ===
 
+# Ogre3D SDK
+export OGRE_HOME="$HOME/Ogre/OgreSdk"
+export DYLD_LIBRARY_PATH="$OGRE_HOME/lib:$OGRE_HOME/Dependencies/lib:$DYLD_LIBRARY_PATH"
+export PATH="$OGRE_HOME/bin:/opt/homebrew/bin:$PATH"
+
+# PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH"
 
 # obsidian

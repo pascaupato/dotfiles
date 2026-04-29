@@ -1,0 +1,509 @@
+ls
+cd ..
+yt-dlp "https://www.youtube.com/watch?v=7fkgGNaiXsc&list=PLZ-54sd-DMALABr_k6VpMnut_11q2oJmv&index=4"
+ls
+ls
+lsa
+ls 01-demo
+cd 01-demo
+proj.sh
+ls
+rm -rf .git .gitignore 
+lsa
+rm -rf src/
+ ls
+cd src/
+ls
+glog 
+lsa
+git add . 
+gca "fourth tutorial"
+gp
+ls
+gadd . 
+gca "fifth tutorial"
+git push 
+gls
+i
+ls
+git pull
+ls
+git branch tito
+git checkout tito
+ls
+git checkout origin/regina 
+glog
+ls
+git add . 
+git commit -m "basic cave lightup"
+gp
+gitlog
+glog
+git log
+git push -u origin cave
+git rebase --onto main origin/regina cave\
+git push -u origin cave
+git checkout -b cave\
+git push -u origin cave
+git log 
+git add . 
+ls
+opencode
+cd Obsidian
+ls
+nv
+cd 02-atomic
+fzf
+cat 1769134965-seeoneeislandesa.md\
+
+rm 1769134965-seeoneeislandesa.md\
+
+cd res
+cd uni 
+cd uc3m 
+ls
+cd My\ Drive/00-res
+opencode
+cd res
+ls
+cd ..
+ls
+git init
+git add . 
+git rm --cached 01-labs/01-voluspa
+git commit -m "initial commit"
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+mkdir 17-ciso
+cd 17-ciso
+class.sh
+class.sh
+ls
+ls
+mkdir 01-labs
+ls
+cd 02-prob
+ls
+nv aiDefinition.md
+ls
+pwd
+pandoc.sh aiDefinition.md
+ls
+cat aiDefinition.md aiDefinition.md 
+cat aiDefinition.md 
+cat aiDefinition.md  | pbcopy 
+cd ru 
+ls
+cd uc3m 
+cd ciso 
+ls
+cd ciso 
+cl
+cd ciso 
+ls
+mv My\ Drive/02-uc3m/01-classes/17-ciso/ My\ Drive/03-ru/03-ciso
+cd ciso
+cd My\ Drive/03-ru/03-ciso
+ls
+ls
+cd 02-prob/aiDefinition.md
+nv 02-prob/aiDefinition.md 
+cd obsidian
+....
+ls
+cd My\ Drive/01-obsidian
+cd .obsidian
+l
+ls
+nv snippets/theme.css 
+unixdate
+zshsource
+unixdate
+unixtime
+ls
+lsa
+cd ..
+lsa
+nv .gitignore 
+man ls
+man ln
+ln -s 
+ln -s ../00-res/ 00-res
+ls
+cd .obsidian
+nv snippets/theme.css 
+cd ciso
+ls
+nv snippets/theme.css 
+ls
+cd .ob
+cd snippets
+nv theme.css 
+cd ..
+..
+ls
+rm book-conc-downey-littleBookOfSemaphores.pdf 
+cd 00-res
+ls
+ls | grep book 
+ls -f book
+"ls" | grep book
+pwd
+..
+..
+cd 00-res
+ls
+mv book-conc-downey-littleBookOfSemaphores.pdf  book-codip-downey-littleBookOfSemaphores.pdf
+unixtime 
+cd documents
+ls
+cd 02-obsidian
+ls
+cd ..
+rm -rf 02-obsidian/
+git clone git@github.com:Albrtito/obsidian.git 02-obsidian
+ls
+cd 02-obsidian
+ls
+rm Untitled.md 
+cd ..
+ls
+rm -rf 02-obsidian/
+cd VAULT
+lsa
+rm -rf .smart-env/
+nv .gitignore 
+which pdflatex
+ls
+cd distri
+cd 02-ru/00-res
+ls
+cd ..
+nv
+nv
+ngrok http 4321
+ngrok http 4321
+ngrok http 8080
+ngrok http 4321
+rt
+t
+t kill
+t kill-server
+t 
+bagels
+nvim
+nvim
+nvim
+nvim
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+ç
+cl
+bagels
+nvim
+nvim
+nvim
+bagels
+zshsource
+obsidian
+cd dotfiles 
+nv zsh/.zshrc 
+zshsrouce
+zshsource
+obsidian
+cl
+t
+t
+cd tm
+cd tmp
+pwd
+man mktemp
+mktemp -d opencode
+ls
+cd opencode
+opencode
+opencode
+cd 100
+ls
+cd My\ Drive
+ls
+exit
+exit
+exit
+nv project.godot 
+exit
+rt
+t
+cd ger
+cd gear
+ls
+cd 03-prj
+ls
+cd 01-demo
+ls
+ls res
+cd SteeringSystems
+ls
+cd Docuemnts
+cd docu
+ls
+cd 03-godot
+ls
+cd steering-systems
+ls
+git init
+git add . 
+git commit -m "initial commit"
+git add remote git@github.com:Albrtito/ru-gear-steeringSystems.git
+git remote add git@github.com:Albrtito/ru-gear-steeringSystems.git
+git remote add origin git@github.com:Albrtito/ru-gear-steeringSystems.git
+git pull
+git push origin main
+git pull
+git branch --set-upstream-to=origin/main main
+git pull
+git pull --force
+git log 
+git push 
+git push --force
+git pull
+git log 
+touch README.md
+touch LICENSE.md
+nv LICENSE.md 
+ls
+git add . 
+git commit -m "added GodotVim plugin"
+git push
+ls
+cd ..
+git clone git@github.com:mkoenig2362/2d-rpg.git demo
+ls
+cd demo
+tree
+cd ..
+cd steering-systems
+opencode
+exit
+nvim
+exit
+glog
+exit
+cd ..
+ls nix
+lsa nix
+rm -rf nix/
+sudo rm -rf nix/
+ls
+cd src
+ls
+docker compose up -d && docker attach spark_v5_interactive
+docker compose up -d && docker attach spark_v5_interactive
+cl
+brew install sbt
+ls
+chmod +x run_experiments.sh 
+./run_experiments.sh
+bagels
+brew install --cask processing
+cd dotfiles 
+ls
+git add . 
+gca "processing script"
+cd tmp
+ls
+pwd
+mktemp processing 
+ls
+rm processing 
+mktemp processing.pde
+ls
+nv processing.pde 
+zshsource
+processing processing.pde
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+cl
+bagels
+cd helloWorld
+gcc main.cpp -o 
+gcc main.cpp -o main
+python3
+bagels
+cd
+cl
+which clangd
+cd helloWordl
+c hello
+cd alb
+cd My\ Drive/04-cpp
+cd 01-helloWorld
+ls
+clangd
+clang++ -std=c++20 -Wall -o out main.cpp && ./out\
+
+clang++ -v main.cpp 2>&1 | grep -A 20 "include"
+xcode-select --install
+clang++ --version
+which clang++  
+clang++ -isysroot $(xcrun --show-sdk-path) main.cpp
+xcrun --show-sdk-path
+ls $(xcrun --show-sdk-path)/usr/include/c++
+clang++ -v main.cpp 2>&1 | grep -A 20 "search starts"
+ls /Library/Developer/CommandLineTools/usr/include/c++/v1 | grep iostream
+sudo rm -rf /Library/Developer/CommandLineTools\
+xcode-select --install
+sudo softwareupdate --install --all
+ls /Library/Developer/CommandLineTools/usr/include/c++/v1 | grep iostream
+ls /Library/Developer/CommandLineTools/usr/include/c++/v1 | grep iostream
+ls /Library/Developer/CommandLineTools
+ls /Library/Developer/CommandLineTools/usr/
+tree /Library/Developer/CommandLineTools/usr/
+tree /Library/Developer/CommandLineTools/usr/include/
+bagels
+ls /Library/Developer/CommandLineTools/usr/
+ls /Library/Developer/CommandLineTools/usr/include/
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+bagels 
+bagels
+ls /Library/Developer/CommandLineTools/usr/include/
+clang++ -v main.cpp 2>&1 | grep -A 20 "search starts"
+clang++ -std=c++20 -Wall -o out main.cpp && ./out\
+
+ls
+ls
+lsa
+./out
+./a.out
+rm a.out out 
+ls
+clang++ -Wall main.cpp -o main.o
+ls
+./main.o
+ls
+rm main.
+rm main.o 
+clang++ -Wall main.cpp -o main.out
+ls
+man clangd
+man clang++
+man clang
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+cl
+bagels
+opencode
+man opencode
+opencode help 
+opencode 
+curl https://api.anthropic.com/v1/organizations/api_keys/$API_KEY_ID \\
+    -H 'anthropic-version: 2023-06-01' \\
+    -H "X-Api-Key: $ANTHROPIC_ADMIN_API_KEY"
+echo $ANTHROPIC_ADMIN_API_KEY
+bagels
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+cl
+cd gea
+ls
+tree
+ls
+tree -2
+tree -L2
+cd godot 
+ls
+cd steering-systems
+ls
+git pull
+git log 
+begels
+bagels
+brew install chaosteil/tap/doist\
+
+doist
+doist auth
+find "$HOME/Library/Application Support/Claude/local-agent-mode-sessions" -name "local*.json" -exec grep -l '"isArchived":true\|"isArchived": true' {} \;
+cat /Users/tito/Library/Application Support/Claude/local-agent-mode-sessions/344356c6-8083-44a3-8fa0-fbb81ffa632d/d49fc0cf-52ff-4ac5-8e7b-f786ab82f8d5/local_9a6a40b5-3a11-4051-9caa-f41e3d9b9e26.json
+cat "/Users/tito/Library/Application Support/Claude/local-agent-mode-sessions/344356c6-8083-44a3-8fa0-fbb81ffa632d/d49fc0cf-52ff-4ac5-8e7b-f786ab82f8d5/local_9a6a40b5-3a11-4051-9caa-f41e3d9b9e26.json"
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+cl
+bagels
+cd lang
+cd cpp
+ls
+cd 01-helloWorld
+ls
+clang -Wall main.cpp -o main.out
+gcc -Wall main.cpp -o main.out
+bagels
+ls
+cd 
+bagels
+cd distri
+ls
+cd 01-ejercicios/ex_2
+ls
+ls scripts
+cat scripts/setup.sh 
+open src/Ejercicio2\ -\ Ejercicio2.pdf
+cd scripts
+./setup.sh
+chmod +x ./setup.sh 
+./setup.sh
+source setup.sh
+source setup.sh
+cd 01-VAULT
+ls
+gca "manualsave"
+cd 01-VAULT
+ls
+git log
+exit
+top
+btop
+nv '/Users/tito/Library/CloudStorage/GoogleDrive-100495775@alumnos.uc3m.es/My Drive/01-VAULT/02-notes/1772889053-project2kmeansclusteringonspark.md'
+rm '/Users/tito/Library/CloudStorage/GoogleDrive-100495775@alumnos.uc3m.es/My Drive/01-VAULT/02-notes/1772889053-project2kmeansclusteringonspark.md'
+exit
+exit
+source ../scripts/setup.sh 
+make
+ls
+make clean
+make
+ls
+cd bin/
+& ./server-sock 8080
+./server-sock 8080
+ls
+rt
+tmux
+cd /Users/tito/Library/CloudStorage/GoogleDrive-100495775@alumnos.uc3m.es/My Drive/02-uc3m/01-classes/11-distri/01-ejercicios/ex_2/src\
+
+ls
+make 
+source ../scripts/setup.sh
+bash 
+source ../scripts/setup.sh 
+make clean
+make
+ls
+cd bin/
+./client 
+exit
+source ../scripts/setup.sh 
+cd bin/
+ls
+./server-sock 8080
+exit
+echo $IP_TUPLAS
+export IP_TUPLAS=localhost PORT_TUPLAS=8080
+./server-sock 8080
+ls
+cd ..
+ls
+bash
+exit
+/Applications/Anki.app/Contents/MacOS/launcher ; exit;

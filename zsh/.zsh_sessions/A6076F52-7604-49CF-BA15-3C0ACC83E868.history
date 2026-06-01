@@ -1,0 +1,1221 @@
+open s1q1\ \[s1q1\].mp4
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/b27db196-54b4-4fb4-ad83-66dc51fb430d/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iMjdkYjE5Ni01NGI0LTRmYjQtYWQ4My02NmRjNTFmYjQzMGQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTAwOX19fV19&Signature=1rMU4I3o0GWJAIAa6Eu3s0gTtzZXGbkzB2agco3-GSJrygCnf2q1l55C-lyLmrJ%7ERXsuRJWJokY3wQP%7EqDT49QNBzZfehMkZZFJc26NidZM5hYZWYNDsSHMJLWnIl-F9di9kGNT3KIoXZfxIyjUD25epcbKowNqBWHWLQa%7EzFJ3%7E8yle-L8p2po32B53r8JgLQulQSoVY5qGG8lbvoC2O70LKxIWKKTgN0qn90v6-yK3nZ-Thx%7ENDNh7SrfE-ctvtmrGdacGeBnl9oThEsLXLpvqiXp3oLBgAvFDMbOgDDu5Lq0Kssj8MEgppBBDrNgthBNg5OQ3qbeE8q9UDd6RGA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+open . 
+cd video 
+mkdir video 
+cd video 
+ffmpeg -i "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s0q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTAxMH19fV19&Signature=T2KoDZcJS1RFXEdoYYCMegr1-Mq1N1ChU4O3J~lIbHcvc0YGnNytNy~tbx-kzsYd0~RKsYDOqHghEHtzWIKmvBOxUXBsna7jmqVgQCB8Q0XUuYLJMyvrieiE~IKvCbdpd3EKOWS7mZeHKxOeJ0r2rrCOdPrWsPeA1ijJiLHumQQaqi5~0CuzGFPmp0GUcET7xwAO4IxFzNA5QTEnDw9-~~~9tc4xM5DNB~oDLFjOHXX79H9yx79pv~tu91SFsYTkd3~i2s2Fz2dNqgeq-tu7B-spUbrZxvcQ0MGOxH4pT00Kpv0x6UJBf5Typ9gDPqC6dhHfkZ9i9ypxZVZXi~~Xxg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA" -i "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s1q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTAxMH19fV19&Signature=T2KoDZcJS1RFXEdoYYCMegr1-Mq1N1ChU4O3J~lIbHcvc0YGnNytNy~tbx-kzsYd0~RKsYDOqHghEHtzWIKmvBOxUXBsna7jmqVgQCB8Q0XUuYLJMyvrieiE~IKvCbdpd3EKOWS7mZeHKxOeJ0r2rrCOdPrWsPeA1ijJiLHumQQaqi5~0CuzGFPmp0GUcET7xwAO4IxFzNA5QTEnDw9-~~~9tc4xM5DNB~oDLFjOHXX79H9yx79pv~tu91SFsYTkd3~i2s2Fz2dNqgeq-tu7B-spUbrZxvcQ0MGOxH4pT00Kpv0x6UJBf5Typ9gDPqC6dhHfkZ9i9ypxZVZXi~~Xxg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA" -c:v copy -c:a copy -map 0:v -map 1:a lecture1.mp4
+yt-dlp "[https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s0q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTAxMH19fV19&Signature=T2KoDZcJS1RFXEdoYYCMegr1-Mq1N1ChU4O3J~lIbHcvc0YGnNytNy~tbx-kzsYd0~RKsYDOqHghEHtzWIKmvBOxUXBsna7jmqVgQCB8Q0XUuYLJMyvrieiE~IKvCbdpd3EKOWS7mZeHKxOeJ0r2rrCOdPrWsPeA1ijJiLHumQQaqi5~0CuzGFPmp0GUcET7xwAO4IxFzNA5QTEnDw9-~~~9tc4xM5DNB~oDLFjOHXX79H9yx79pv~tu91SFsYTkd3~i2s2Fz2dNqgeq-tu7B-spUbrZxvcQ0MGOxH4pT00Kpv0x6UJBf5Typ9gDPqC6dhHfkZ9i9ypxZVZXi~~Xxg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA](https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s0q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTAxMH19fV19&Signature=T2KoDZcJS1RFXEdoYYCMegr1-Mq1N1ChU4O3J%7ElIbHcvc0YGnNytNy%7Etbx-kzsYd0%7ERKsYDOqHghEHtzWIKmvBOxUXBsna7jmqVgQCB8Q0XUuYLJMyvrieiE%7EIKvCbdpd3EKOWS7mZeHKxOeJ0r2rrCOdPrWsPeA1ijJiLHumQQaqi5%7E0CuzGFPmp0GUcET7xwAO4IxFzNA5QTEnDw9-%7E%7E%7E9tc4xM5DNB%7EoDLFjOHXX79H9yx79pv%7Etu91SFsYTkd3%7Ei2s2Fz2dNqgeq-tu7B-spUbrZxvcQ0MGOxH4pT00Kpv0x6UJBf5Typ9gDPqC6dhHfkZ9i9ypxZVZXi%7E%7EXxg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA)"
+curl 'https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc5MDA3OH19fV19&Signature=Rdqgg9dFz6PlbQC%7EKD0JN9vKMRHevUt9frsBuneC%7E-RwsV9wlY7Hilu2VF1IMIK67Hlmb6MYWomCi2qLWx6Sp%7EjCkCJEF3kTN54jHpWv1C0VprI4jNTNr2CiuySVUbgHG9n%7EM2H2y8CZln0e3odLbcKjQ2ch3hNeQQXrUnMbKUJIgorM73dXH9zcAzBcVUZvbcrv0JnSs8K4fWJLanUAfdsVtCH4AWl1eAZjSoJbb6abNUD%7EvCFYQ6Uq4DndJtTTeLoh%7EA7fLvpO0Zf2vDjGLpWFPfBMOLWimLknRONq2MNUxitFncMSB3nY3HuaxT8%7EOIxzr%7EVT7sV9TZ95%7EUXdMQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA' \\
+-X 'GET' \\
+-H 'Accept: */*' \\
+-H 'Sec-Fetch-Site: same-site' \\
+-H 'Origin: https://echo360.org.uk' \\
+-H 'Sec-Fetch-Dest: empty' \\
+-H 'Accept-Encoding: identity' \\
+-H 'Range: bytes=2981394-3119688' \\
+-H 'Sec-Fetch-Mode: cors' \\
+-H 'Accept-Language: en-US,en;q=0.9' \\
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15' \\
+-H 'Referer: https://echo360.org.uk/' \\
+-H 'Priority: u=3, i'
+curl 'https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc5MDA3OH19fV19&Signature=Rdqgg9dFz6PlbQC%7EKD0JN9vKMRHevUt9frsBuneC%7E-RwsV9wlY7Hilu2VF1IMIK67Hlmb6MYWomCi2qLWx6Sp%7EjCkCJEF3kTN54jHpWv1C0VprI4jNTNr2CiuySVUbgHG9n%7EM2H2y8CZln0e3odLbcKjQ2ch3hNeQQXrUnMbKUJIgorM73dXH9zcAzBcVUZvbcrv0JnSs8K4fWJLanUAfdsVtCH4AWl1eAZjSoJbb6abNUD%7EvCFYQ6Uq4DndJtTTeLoh%7EA7fLvpO0Zf2vDjGLpWFPfBMOLWimLknRONq2MNUxitFncMSB3nY3HuaxT8%7EOIxzr%7EVT7sV9TZ95%7EUXdMQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA' \\
+-X 'GET' \\
+-H 'Accept: */*' \\
+-H 'Sec-Fetch-Site: same-site' \\
+-H 'Origin: https://echo360.org.uk' \\
+-H 'Sec-Fetch-Dest: empty' \\
+-H 'Accept-Encoding: identity' \\
+-H 'Range: bytes=2981394-3119688' \\
+-H 'Sec-Fetch-Mode: cors' \\
+-H 'Accept-Language: en-US,en;q=0.9' \\
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15' \\
+-H 'Referer: https://echo360.org.uk/' \\
+-H 'Priority: u=3, i'
+curl 'https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc5MDA3OH19fV19&Signature=Rdqgg9dFz6PlbQC%7EKD0JN9vKMRHevUt9frsBuneC%7E-RwsV9wlY7Hilu2VF1IMIK67Hlmb6MYWomCi2qLWx6Sp%7EjCkCJEF3kTN54jHpWv1C0VprI4jNTNr2CiuySVUbgHG9n%7EM2H2y8CZln0e3odLbcKjQ2ch3hNeQQXrUnMbKUJIgorM73dXH9zcAzBcVUZvbcrv0JnSs8K4fWJLanUAfdsVtCH4AWl1eAZjSoJbb6abNUD%7EvCFYQ6Uq4DndJtTTeLoh%7EA7fLvpO0Zf2vDjGLpWFPfBMOLWimLknRONq2MNUxitFncMSB3nY3HuaxT8%7EOIxzr%7EVT7sV9TZ95%7EUXdMQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA' \\
+-X 'GET' \\
+-H 'Accept: */*' \\
+-H 'Sec-Fetch-Site: same-site' \\
+-H 'Origin: https://echo360.org.uk' \\
+-H 'Sec-Fetch-Dest: empty' \\
+-H 'Accept-Encoding: identity' \\
+-H 'Range: bytes=2981394-3119688' \\
+-H 'Sec-Fetch-Mode: cors' \\
+-H 'Accept-Language: en-US,en;q=0.9' \\
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15' \\
+-H 'Referer: https://echo360.org.uk/' \\
+-H 'Priority: u=3, i'
+curl 'https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/bc0cc433-4562-443a-958e-c4c59aa526bd/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iYzBjYzQzMy00NTYyLTQ0M2EtOTU4ZS1jNGM1OWFhNTI2YmQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc5MDA3OH19fV19&Signature=Rdqgg9dFz6PlbQC%7EKD0JN9vKMRHevUt9frsBuneC%7E-RwsV9wlY7Hilu2VF1IMIK67Hlmb6MYWomCi2qLWx6Sp%7EjCkCJEF3kTN54jHpWv1C0VprI4jNTNr2CiuySVUbgHG9n%7EM2H2y8CZln0e3odLbcKjQ2ch3hNeQQXrUnMbKUJIgorM73dXH9zcAzBcVUZvbcrv0JnSs8K4fWJLanUAfdsVtCH4AWl1eAZjSoJbb6abNUD%7EvCFYQ6Uq4DndJtTTeLoh%7EA7fLvpO0Zf2vDjGLpWFPfBMOLWimLknRONq2MNUxitFncMSB3nY3HuaxT8%7EOIxzr%7EVT7sV9TZ95%7EUXdMQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA' \\
+-X 'GET' \\
+-H 'Accept: */*' \\
+-H 'Sec-Fetch-Site: same-site' \\
+-H 'Origin: https://echo360.org.uk' \\
+-H 'Sec-Fetch-Dest: empty' \\
+-H 'Accept-Encoding: identity' \\
+-H 'Range: bytes=2981394-3119688' \\
+-H 'Sec-Fetch-Mode: cors' \\
+-H 'Accept-Language: en-US,en;q=0.9' \\
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15' \\
+-H 'Referer: https://echo360.org.uk/' \\
+-H 'Priority: u=3, i'\\
+--output test.mp4
+cl
+ls
+mkdir 01
+mkdir 02
+mkdir 03
+mkdir 04
+mkdir 05, 06, 07, 08, 09, 10, 11, 12, 13
+ls
+rm -r 05,/ 06,/ 07,/ 08,/ 09,/ 10,/ 11,/ 12,/
+mkdir 05 06 07 08 09 10 11 12
+cd 10
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/3489247b-17cb-4e45-87da-58aa87a2fd09/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8zNDg5MjQ3Yi0xN2NiLTRlNDUtODdkYS01OGFhODdhMmZkMDkvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ2N319fV19&Signature=Krbwmo%7EMtz07CXGdzjTk8NPktrnTuXvB8GOgk4q1qxWNgyL4ra3LBxJekNFpiceO-4j8%7E54YOMzbzzhu1DN4Mhwrr6JXD1jp48jcVIUurVOomrzEdXkWSJV8oK-ybqTu2F0MFpR-hHdyCK99soh8EvfEsxmt64feLQYP6HvjBGeg2glnRk8hsG%7EM9ZhHfaEI-5toGXfYhTHQhXj5qXzIfNaZaLakUx9in%7EzyoOTnPP2sj6gIeQk0S0XcMN6or%7EwQzs1e2NJQWVApzCtGaD4WGaspaQ6f7DQc9S-fl2pmWejpgyQoHh1rRS31lzWKlxxlgLgWIZhvmH29bYSgMIPaCg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../12
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/d8757eea-57c3-479e-85fc-662971fe01f6/1/s0q1.m4s?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9kODc1N2VlYS01N2MzLTQ3OWUtODVmYy02NjI5NzFmZTAxZjYvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ3OH19fV19&Signature=Vwa4g44TRrH1aQGQWhgI5mihSzM8s5ts%7EcYB8YwXZoOe0JBxx5xLqbuEn%7EBzS7L7As%7E-59tVTFsCa5oQ2G0hNwqG8oHB4Oj6SQHFWQK6WhjWpGHjm1zGFVN4Q2jcIov3C%7Er5pVbd-530g9jb56Nn3DuVEHnm8z9H5PTQBbtmNYnfi%7EBQ5mzDencsyBSWVxf5xD2c023rCAQ8YubUrpRXCubwOZ77NnhufxXzpDuA9yJI5iIvhSLa3pG9wmwPvr5Uav9JnTYkcX%7EV%7Erl5gM%7EHyzjRbawca%7EQa1pp-D0NHjrYWR7HNM3uROoldyW2z9eOPF2jgZxnp-XJ1K-JPsMJ7iQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../13
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/c097cfdd-ccc3-4ab0-a71c-12bc9ea8f18c/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9jMDk3Y2ZkZC1jY2MzLTRhYjAtYTcxYy0xMmJjOWVhOGYxOGMvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5Mn19fV19&Signature=Bqut0XcjaJeKm50RYbLFiyfxxZm896L87eYT%7Ew43CkzmBveD47slga2w6amXrjyt-siWfLRYU-TsGOucNise%7EuR9BN7EvRiUjbdp7whLGTq1JEeTtoCx6j%7EVVziIt4x-2mFtyKiS0RbxwRwRlE9oTaU70WHNdgjO%7EVpAG84NGEgqzAGWe11nnMq9GMyu0XGh8vjNCQ1ArasF8qiOkfBDEYH0FV8TtVAEZrg2IFydBNwx-3ZbnA1Jckc51wlHr6nZqQOHCEW0CUztoTQVjw%7EQMd-zzM%7Es8S-EwMBlwG3tGmNF6-PZCkpw6S2CTGjj6xwFD0EGNMjCdhn47SrTFXsvrQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../14 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/b8f09086-d20c-4f57-a3b4-f1838fb3c3d0/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iOGYwOTA4Ni1kMjBjLTRmNTctYTNiNC1mMTgzOGZiM2MzZDAvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5NX19fV19&Signature=HjJY8g7HIqu-6ZA7ai3h45fmYuWNXZcHs0b-u1p3s1ZlarJdYYfXHumsLhk3wn7-Y6oARXkCz2wTuEDL8Wm23eleoaYVN0VvhxmVgWDnNNRNZkbPHN11WOC%7EzxOEClCQ8%7Esg23C5g2I67v2o977RnSNz0HGx%7ElCuBTrbStHRS-dwo679YHmI5fSl0%7EKbdBokd6qTurYG3rKscTxqSID92IiMkFXKBdnOd2%7E%7EwBYzNSZTMQ-LOYgR9PSjT5kosDh1hVkAbwWn0ZRxehJ8Qa4jwvM1ra-vVlcASo%7EW21-AMc0Qh1vSRV85N9Qa5rWAtWl1uMDFISqIC5hB2UG4DQRkzA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../16
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/f10a753b-b5ce-444d-adbd-0f092bfb9677/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9mMTBhNzUzYi1iNWNlLTQ0NGQtYWRiZC0wZjA5MmJmYjk2NzcvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5N319fV19&Signature=unuOXzQBRg%7EMhAfIu4fG%7E2iKosiXna8IwH0t0LCqARLVmmvlr0c00BjObxGkG9NXIkRvDEk40LPLKFh20Br-9s1zZ5jkzPj9mvMvh4LAbZZ4zYwNW3H488eTP12uz7ARH8C5JiQ519GVs-F-uykVGUYFIGIbfuNy0NVbz2QtMDNlHGfx7oyuZBefPhMQ99Z0l-EpOxtOAMfb7FSs6L2r462OL2fqbvWl8LGK8zksWzWkDEKizLUujU3Lz8HPDj8ywfhF2Z5Y1VCn6vMoi5W9NxY5xoVSegrDukCaxOySK1I-2S82UgKautCa8TT%7E2QgyZFowXC9YE5IcthfQzi1u%7EQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../18 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/fdc79f42-7073-4a6e-8754-ad746c9ea171/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9mZGM3OWY0Mi03MDczLTRhNmUtODc1NC1hZDc0NmM5ZWExNzEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYxNn19fV19&Signature=pWmvc8mXXLFlwQll23hVJALu4BoWJjsxY0pgNrHzaCRS%7EKvS6Ca2IUB2f5pRYsiLxTVQTXi24GfYUOMmqHGw1FlrNrbTXqjnklDRuNh25w4kZRIst8xnmG18S6EocB9o3stVVeVG4F6dg8l74LkulOFaexRF%7E10Cwgpu4br4txvLFcnbumG9CqUMEexFdBGoJmRnxsCq-2Tx-jc2iMv4XArhD153V2zDFWivSuSR47hfN0flNoCnrOfjtU9j3MvD0kMVZk3N9IYLkh5cq9ePbAaVmB%7Ea%7EBphVPbysFOy324SeQY8e2WeBm%7E64WCH9IQR3whQkGYUBrInSC-vwcA%7Exg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../19 
+ls
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/f6a51170-68f6-4e68-add2-17a5b8f3bad3/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9mNmE1MTE3MC02OGY2LTRlNjgtYWRkMi0xN2E1YjhmM2JhZDMvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyMH19fV19&Signature=EJ3zmr51hkFPKWazkdE6RVWnB5Ll%7EppngaX7DgOKuT5Y%7Ev3xrnRpUV3LIjeopsC16LuyYyxbN7ABsEpP%7ECUOofitPnrtgGuNoDZdPgF1Y9vM8BqKnxcWUKpfgv1Qed5%7ElCX-Ri6DesCdedRczPjW8U%7ENgmmtUm790tKVEupMuM8RvcHFFpCwaPM5hwCide6sB4QYfEG26TUnew4ATRvHKyE%7E0yaBwwNxf-Org5i8gzTZGdFE-H3929c0yBiYaix7Chd4TsLTB62eDWBHhC1e5Y8De7j92QQdoLbFSaYOpcR1elN1uc3uD-98ZEVgEhjW%7Ev3vz6GS%7EltBdUXScjmbfA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+ls 
+cd ../20
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/2cd71422-7d62-46f8-92ef-f7fc5657eec1/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8yY2Q3MTQyMi03ZDYyLTQ2ZjgtOTJlZi1mN2ZjNTY1N2VlYzEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyMX19fV19&Signature=UVLAi6-gh5DueiJIxS6-hlkRFroDx%7ExQra2HsaTuLTQlExSvbMrBn2iFLu7yYZlFBsY5w-SB6JZCU29hqGV2%7EQaeqG1a6r9CAm5hhpI1HTQs6kneXeanfvjeby3X-IE%7EDV8fybRu5Ug-Rd0EG-JVm8ndg5AAds8pGEo1ROuFzLv3ZZiNVWFRm3xo20vMfR9VgZJxc-ShgKTkBWLTwVAm6TdsAIZh1zySCEqAgAnB-sJ3mdEkQV-Z6YVa1gAToDeyh4aSPqzuQxguieQM16xrQY1siFvXA7i1-0sCOGIxAr6EWjzqR8Fz48lnyKuGEw73g6czcFwjUh8pY-z0Y74UAA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../21
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/056023da-0ba4-4f18-a365-0697de7b69a7/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8wNTYwMjNkYS0wYmE0LTRmMTgtYTM2NS0wNjk3ZGU3YjY5YTcvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyMn19fV19&Signature=DmKAUZX1mF6nUy0JB0Ddo-oisPrn6RqcJNElRnIUTKwmzcoEpskoJfDvl%7EPRx3aRw7PTXnzFcti0ACytdG0C%7E4CY%7EA4dJ3HScKyDWfpaoYOr9q6MqpqxbQOJh0z4%7EELm5yUbRkXl2DINjjnUlPXo5unQayf3Re24Zw3cfR4sIKxuAg8dXaIFszrsS3uFDck-hwzrVkH7bFzdblUAPfDe%7E-SXygmbolUwsEd16mkLNQh9kKvYv9yTz86WRwtLkpNKvYGsocHFo70nwHY10SABIUCUR%7EiFDfOImS3IbyTqRzgxwOW%7EpVtcixQhUlSneswYTAGTzpDcsB2FJI52%7EgyliA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+exit
+ls
+whisper-cpp --help 2>&1 | grep -i model
+brew install whisper-cpp 
+whisper-cli --help 2>&1 | grep -i model 
+whisper-cli
+ls
+ls
+for f in *.mp4; do ffmpeg -i "$f" -q:a 0 -map a "${f%.mp4}.mp3"; done
+ls
+ls
+ls
+find . -name "*.mp3" -exec ffprobe -v quiet -show_entries format=duration -of csv=p=0 {} \; | awk '{sum+=$1} END {printf "%d:%02d:%02d\n", sum/3600, sum%3600/60, sum%60}'
+btop 
+ls
+nv 01.txt 
+bto 
+btop 
+exit
+exit
+cd 08
+ls
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/8727e262-deb9-4533-a3d6-bf9f07d856e7/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS84NzI3ZTI2Mi1kZWI5LTQ1MzMtYTNkNi1iZjlmMDdkODU2ZTcvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ1M319fV19&Signature=0ucO0Wfs0IhHIxnAh0czU2d0Fw5DRyOLMOAkgaJb%7EWyJWT5MqoKV8FYQZ%7EH5qrNBS%7EkiCfeGlr8-ndIspW-1BcVK0ugJzMg-J%7EBekDKdB0SgiRkDCElIeeO3uXwLfxebVGTHEGDNAoXRHYxSqscu%7EIlXtv-ld5IBgPjQSXLKcnN10-zq9DYhVt03BAZJPbWTTZbYXdt0HDH9uoTBsOAu7kYJE1GMGyU4pk5CDOgmd4ncJ-Iey04dGS1tR9cNdbsK3jQzjoYxJxB9X6hJooowt%7EkCeq2g6WdTK8G0JF2Bv5VqvJa9E8--zMrXNgQUeTCwLIfCRCM5cfddaqmcjLGG9A__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../10
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/3489247b-17cb-4e45-87da-58aa87a2fd09/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8zNDg5MjQ3Yi0xN2NiLTRlNDUtODdkYS01OGFhODdhMmZkMDkvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ2N319fV19&Signature=Krbwmo%7EMtz07CXGdzjTk8NPktrnTuXvB8GOgk4q1qxWNgyL4ra3LBxJekNFpiceO-4j8%7E54YOMzbzzhu1DN4Mhwrr6JXD1jp48jcVIUurVOomrzEdXkWSJV8oK-ybqTu2F0MFpR-hHdyCK99soh8EvfEsxmt64feLQYP6HvjBGeg2glnRk8hsG%7EM9ZhHfaEI-5toGXfYhTHQhXj5qXzIfNaZaLakUx9in%7EzyoOTnPP2sj6gIeQk0S0XcMN6or%7EwQzs1e2NJQWVApzCtGaD4WGaspaQ6f7DQc9S-fl2pmWejpgyQoHh1rRS31lzWKlxxlgLgWIZhvmH29bYSgMIPaCg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../12 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/d8757eea-57c3-479e-85fc-662971fe01f6/1/s1q1.m4s?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9kODc1N2VlYS01N2MzLTQ3OWUtODVmYy02NjI5NzFmZTAxZjYvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ3OH19fV19&Signature=Vwa4g44TRrH1aQGQWhgI5mihSzM8s5ts%7EcYB8YwXZoOe0JBxx5xLqbuEn%7EBzS7L7As%7E-59tVTFsCa5oQ2G0hNwqG8oHB4Oj6SQHFWQK6WhjWpGHjm1zGFVN4Q2jcIov3C%7Er5pVbd-530g9jb56Nn3DuVEHnm8z9H5PTQBbtmNYnfi%7EBQ5mzDencsyBSWVxf5xD2c023rCAQ8YubUrpRXCubwOZ77NnhufxXzpDuA9yJI5iIvhSLa3pG9wmwPvr5Uav9JnTYkcX%7EV%7Erl5gM%7EHyzjRbawca%7EQa1pp-D0NHjrYWR7HNM3uROoldyW2z9eOPF2jgZxnp-XJ1K-JPsMJ7iQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+ls
+cd ../13
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/c097cfdd-ccc3-4ab0-a71c-12bc9ea8f18c/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9jMDk3Y2ZkZC1jY2MzLTRhYjAtYTcxYy0xMmJjOWVhOGYxOGMvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5Mn19fV19&Signature=Bqut0XcjaJeKm50RYbLFiyfxxZm896L87eYT%7Ew43CkzmBveD47slga2w6amXrjyt-siWfLRYU-TsGOucNise%7EuR9BN7EvRiUjbdp7whLGTq1JEeTtoCx6j%7EVVziIt4x-2mFtyKiS0RbxwRwRlE9oTaU70WHNdgjO%7EVpAG84NGEgqzAGWe11nnMq9GMyu0XGh8vjNCQ1ArasF8qiOkfBDEYH0FV8TtVAEZrg2IFydBNwx-3ZbnA1Jckc51wlHr6nZqQOHCEW0CUztoTQVjw%7EQMd-zzM%7Es8S-EwMBlwG3tGmNF6-PZCkpw6S2CTGjj6xwFD0EGNMjCdhn47SrTFXsvrQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+ls
+cd ../14
+cd ..
+mkdir 14 15 16 17 18 19 20
+ls
+cd 14
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/b8f09086-d20c-4f57-a3b4-f1838fb3c3d0/1/s0q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iOGYwOTA4Ni1kMjBjLTRmNTctYTNiNC1mMTgzOGZiM2MzZDAvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5NX19fV19&Signature=HjJY8g7HIqu-6ZA7ai3h45fmYuWNXZcHs0b-u1p3s1ZlarJdYYfXHumsLhk3wn7-Y6oARXkCz2wTuEDL8Wm23eleoaYVN0VvhxmVgWDnNNRNZkbPHN11WOC%7EzxOEClCQ8%7Esg23C5g2I67v2o977RnSNz0HGx%7ElCuBTrbStHRS-dwo679YHmI5fSl0%7EKbdBokd6qTurYG3rKscTxqSID92IiMkFXKBdnOd2%7E%7EwBYzNSZTMQ-LOYgR9PSjT5kosDh1hVkAbwWn0ZRxehJ8Qa4jwvM1ra-vVlcASo%7EW21-AMc0Qh1vSRV85N9Qa5rWAtWl1uMDFISqIC5hB2UG4DQRkzA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../16
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/f10a753b-b5ce-444d-adbd-0f092bfb9677/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9mMTBhNzUzYi1iNWNlLTQ0NGQtYWRiZC0wZjA5MmJmYjk2NzcvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTQ5N319fV19&Signature=unuOXzQBRg%7EMhAfIu4fG%7E2iKosiXna8IwH0t0LCqARLVmmvlr0c00BjObxGkG9NXIkRvDEk40LPLKFh20Br-9s1zZ5jkzPj9mvMvh4LAbZZ4zYwNW3H488eTP12uz7ARH8C5JiQ519GVs-F-uykVGUYFIGIbfuNy0NVbz2QtMDNlHGfx7oyuZBefPhMQ99Z0l-EpOxtOAMfb7FSs6L2r462OL2fqbvWl8LGK8zksWzWkDEKizLUujU3Lz8HPDj8ywfhF2Z5Y1VCn6vMoi5W9NxY5xoVSegrDukCaxOySK1I-2S82UgKautCa8TT%7E2QgyZFowXC9YE5IcthfQzi1u%7EQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../18 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/fdc79f42-7073-4a6e-8754-ad746c9ea171/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9mZGM3OWY0Mi03MDczLTRhNmUtODc1NC1hZDc0NmM5ZWExNzEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYxNn19fV19&Signature=pWmvc8mXXLFlwQll23hVJALu4BoWJjsxY0pgNrHzaCRS%7EKvS6Ca2IUB2f5pRYsiLxTVQTXi24GfYUOMmqHGw1FlrNrbTXqjnklDRuNh25w4kZRIst8xnmG18S6EocB9o3stVVeVG4F6dg8l74LkulOFaexRF%7E10Cwgpu4br4txvLFcnbumG9CqUMEexFdBGoJmRnxsCq-2Tx-jc2iMv4XArhD153V2zDFWivSuSR47hfN0flNoCnrOfjtU9j3MvD0kMVZk3N9IYLkh5cq9ePbAaVmB%7Ea%7EBphVPbysFOy324SeQY8e2WeBm%7E64WCH9IQR3whQkGYUBrInSC-vwcA%7Exg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../20 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/2cd71422-7d62-46f8-92ef-f7fc5657eec1/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8yY2Q3MTQyMi03ZDYyLTQ2ZjgtOTJlZi1mN2ZjNTY1N2VlYzEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyMX19fV19&Signature=UVLAi6-gh5DueiJIxS6-hlkRFroDx%7ExQra2HsaTuLTQlExSvbMrBn2iFLu7yYZlFBsY5w-SB6JZCU29hqGV2%7EQaeqG1a6r9CAm5hhpI1HTQs6kneXeanfvjeby3X-IE%7EDV8fybRu5Ug-Rd0EG-JVm8ndg5AAds8pGEo1ROuFzLv3ZZiNVWFRm3xo20vMfR9VgZJxc-ShgKTkBWLTwVAm6TdsAIZh1zySCEqAgAnB-sJ3mdEkQV-Z6YVa1gAToDeyh4aSPqzuQxguieQM16xrQY1siFvXA7i1-0sCOGIxAr6EWjzqR8Fz48lnyKuGEw73g6czcFwjUh8pY-z0Y74UAA__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../22
+ls
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/2a551e9e-f04f-46a8-b47f-a5ce7fe4424a/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS8yYTU1MWU5ZS1mMDRmLTQ2YTgtYjQ3Zi1hNWNlN2ZlNDQyNGEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyNX19fV19&Signature=FrmED18TgDa%7EJb1xA0tlwbvvo0sPx5VTqF05kq1ZlTB5ekp6agY8GCP7qlyyah69XGDY-Bd7S41PIpqwKmfBza1u87admk1GoOtsP5nYbH3MeYQ3JHGOcajwqghL4dO5wosg7ekP6JfnkIGzgObBiLYu7V-Hoxk8Mg6-MHlUu3TjwM7E5QSkWKXhvohDXamBBynzEBbacmtubohSVBedLZGBOug1TmO%7EvCyGXpprqaZWCDcsLortHMWPNcpOJIz711VQvvFAM0zNZsOSGY2lepHbB2wlNdSKmUWLd-X-VLPeixDkHR12s0VJko%7EP-tc5HeMIcPG%7EVpc%7EaLF8%7Ez0RBg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../23
+ls
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/dea3c831-e986-423d-9b94-3591e5695445/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9kZWEzYzgzMS1lOTg2LTQyM2QtOWI5NC0zNTkxZTU2OTU0NDUvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYyOH19fV19&Signature=BhAnP9EtlEDcPWMHPpa%7E3PVQbg-Wqkl5ys0kZZR6AzYNg4YwcANLg0KBssZz62b-ErL40wWMMBMP%7EdSYejsc0wc4wSjJTsoWyT2aphyhg5P%7EEGA3%7EQAalKsc53OG6Z4xvYmqwA3lYyoSFH17xKd8i%7E9Bnj2U33AZw-NT-EfHiyx2swg0P4BnZ7u4bfZWlxKDIji1Dgkk3WFIG3UqCFS4G6xR-8mcfQmS0uibu2TbzLrCkU-bnMKW1qFa7IRVSX3uC2Ew1jn9In-OdqISTOhzRLZlJGRI5wP%7EyFUC5RVS4X5o78BCpttWG%7EW7x4z9-viCtRVSj5wzUbRH8Xp-kfWMTw__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../24 
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/dee8cb2a-756d-4873-8f32-c519d9ba966a/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9kZWU4Y2IyYS03NTZkLTQ4NzMtOGYzMi1jNTE5ZDliYTk2NmEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYzM319fV19&Signature=ZOydPVQMKQRRAyIL1P1qKoA9l8935ZdzaS6diCzEangvXG9fIb9%7EJEYCpB-LbtXlgXuqMoZEdZpGN4eCLxdCSdfGO6LYVzv7DWTkN6WnKnVqFODq39VltQ8ogjPWXv5Tp2qviJdEoGj%7E0xe5wsJxjD9ED9o8N2eVAQjC8ZwHug05WJrFuaFYeQOM8mm8tmDWD-5Hn4Mw1GMuD7AwVzng90tgfJSbqWkOUqAaDVZQ4-9QmSSMeHF8-FZivr96edJLxZ7qwTugEtWNdizVEqb5gO2U6gf3eZ3oURo1X9OC2a5AsqTXB7Nq-zC0xVXPkdvSyp%7Er2ZAJNql9YYGe%7EQ8uCg__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../25
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/85abe116-9034-47a1-901d-869de842f2d1/1/s0q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS84NWFiZTExNi05MDM0LTQ3YTEtOTAxZC04NjlkZTg0MmYyZDEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYzNX19fV19&Signature=wCmSRuuqTBPs1TaczJtNWhq4GqqNNz37ADT-8%7El0Z8lPSdy70nnUpCskRa%7EMdQpJFiaIrCdsPtgJxIQYfqeZE9Zy%7EzpdHTLSFGGyArbyjvY-CCftesaYdrXzi5EWXa2VE0MczLnBg%7Eu3JQkRdY64Zy-EOi2MGnbAuzd3bPcjwlbGJVZyd836UiFqlWn7lN543u0Is3wsM87anpZvLVnVKEIB3r21x5qBHXqIFNff7PiTN37pILvyPxa0lhk33e3kJfEr268ruizR0ydTNY5v6AdYfGjHXKfyMoDvljC-IKHykhLva7zZ55M0FiUYJ2cHMFBxd8atC-yHYTWIf43RjQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/85abe116-9034-47a1-901d-869de842f2d1/1/s1q0.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS84NWFiZTExNi05MDM0LTQ3YTEtOTAxZC04NjlkZTg0MmYyZDEvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc4OTYzNX19fV19&Signature=wCmSRuuqTBPs1TaczJtNWhq4GqqNNz37ADT-8%7El0Z8lPSdy70nnUpCskRa%7EMdQpJFiaIrCdsPtgJxIQYfqeZE9Zy%7EzpdHTLSFGGyArbyjvY-CCftesaYdrXzi5EWXa2VE0MczLnBg%7Eu3JQkRdY64Zy-EOi2MGnbAuzd3bPcjwlbGJVZyd836UiFqlWn7lN543u0Is3wsM87anpZvLVnVKEIB3r21x5qBHXqIFNff7PiTN37pILvyPxa0lhk33e3kJfEr268ruizR0ydTNY5v6AdYfGjHXKfyMoDvljC-IKHykhLva7zZ55M0FiUYJ2cHMFBxd8atC-yHYTWIf43RjQ__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ../26
+yt-dlp "https://content.echo360.org.uk/0000.3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9/b27db196-54b4-4fb4-ad83-66dc51fb430d/1/s1q1.mp4?x-uid=a0000000-0000-4000-0000-000000000000&x-instid=3e0b9c07-7dd9-4d44-b63d-e9dd2158d9e9&x-src=desktop&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi5lY2hvMzYwLm9yZy51ay8wMDAwLjNlMGI5YzA3LTdkZDktNGQ0NC1iNjNkLWU5ZGQyMTU4ZDllOS9iMjdkYjE5Ni01NGI0LTRmYjQtYWQ4My02NmRjNTFmYjQzMGQvMS8qP3gtdWlkPWEwMDAwMDAwLTAwMDAtNDAwMC0wMDAwLTAwMDAwMDAwMDAwMCZ4LWluc3RpZD0zZTBiOWMwNy03ZGQ5LTRkNDQtYjYzZC1lOWRkMjE1OGQ5ZTkmeC1zcmM9ZGVza3RvcCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Njc5MDIzMH19fV19&Signature=QUqnhmbvDbD9PwNfb8eb7mPFrS2lipO564OY9yYqPxL9M0xKzaT-3NRKa94gSlDWdLmzUJnxb5z9b23N7ScIJGdgx-HUL-3MEHm53viGRdgqSTzhHrzEFNe-eeMP8%7EOzSlsNENJ7-tFU6S54b5fXKIEpqab9Xvk6CHFORjaYaBzGJ4%7ET3M8fmucaeJBLt0PIHIWfYwFUPxkyWBItEoV6dcRFxnlXEc-GNhDPPMl-m%7EIZGfFRVoKEVvDqFYRwlbMxnsWAJICwNLxpxzhPSrOCmZO6bJin8nAKLYwItAsDIdkYvdieGmC6oi4SxWj21U0Z2KoEzGdSuXq1tznk4fKTSw__&Key-Pair-Id=APKAIPMYRDQXV3PXG2XA"
+cd ..
+ls
+tree
+rm -r 27 28
+ls
+tree
+open . 
+ls
+for dir in */; do\
+  audio=$(ls "$dir"s0*)\
+  video=$(ls "$dir"s1*)\
+  ffmpeg -i "$video" -i "$audio" -c copy -map 0:v -map 1:a "${dir%/}.mp4"\
+done
+tree
+brew install whisper-cpp
+# whisper.cpp also ships a download script\
+curl -L https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin \\
+  -o ~/.local/share/whisper-cpp/ggml-medium.bin
+ls
+cl
+brew install hf
+hf download ggerganov/whisper.cpp
+hf
+man hf 
+hf --help
+hf auth
+hf auth login
+hf download ggerganov/whisper.cpp
+ls
+which whisper-cpp\
+ls $(brew --prefix whisper-cpp)/bin/
+brew list whisper-cpp
+ls
+ls
+whisper-cli --model ggml-medium.bin -f 01.mp3
+for f in *.mp3; do whisper-cli --model ggml-small.en.bin -t 4  -f "$f" -of txt -o "${f%.mp3}"; done
+ls
+for f in *.mp3; do whisper-cli --model ggml-small.en.bin -t 4 -f "$f" -of txt -o "${f%.mp3}"; done
+for f in *.mp3; do whisper-cli --model ggml-small.en.bin -t 4 -f "$f" -otxt -of "${f%.mp3}"; done
+cd
+bagels
+bagels
+cd lang 
+cd cpp
+ls
+cd 01-helloWorld
+ls
+clang++ -Wall ch1.cpp -o ch1.out
+./ch1.out
+clang++ -Wall ch1.cpp -o ch1.out
+./ch1.out
+clang++ -Wall ch1.cpp -o ch1.out
+./ch1.out
+cd documentacion
+cd docu
+cd ex_3
+ls
+cd documentation
+ls
+pandoc.sh sistema.md
+ls
+pandoc sistema.md 
+ls
+pandoc sistema.md  -o sistema.pdf
+zshsource
+./AGDownloader
+cd downloads
+cd AGDownloader_Darwin_arm64
+ls
+./AGDownloader --token f9822hqrugd7dm2i6huoijnhe7 --dir download_files --web
+./AGDownloader --token f9822hqrugd7dm2i6huoijnhe7 --dir download_files --web
+./AGDownloader --token f9822hqrugd7dm2i6huoijnhe7
+./AGDownloader --toke f9822hqrugd7dm2i6huoijnhe7
+./AGDownloader --token "f9822hqrugd7dm2i6huoijnhe7"
+ls
+tree
+./AGDownloader --token "t9nttojis493r2alq3eggu28i8"
+./AGDownloader --token t9nttojis493r2alq3eggu28i8 
+ls
+rm -rf download_files/ downloaded_content/
+ls
+cat README.md 
+echo "f9822hqrugd7dm2i6huoijnhe7" >> aulaglobal_token
+ls
+./AGDownloader 
+./AGDownloader 
+cd ex_3
+ls
+open . 
+exit
+mkdir -p ~/Ogre/OgreSrc ~/Ogre/OgreBuild ~/Ogre/OgreSdk
+cd ~
+ls
+cd Ogre
+cd ~/Ogre/OgreSrc\
+curl -L https://github.com/OGRECave/ogre/archive/refs/tags/v14.5.0.tar.gz -o ogre-14.5.0.tar.gz\
+tar -xzf ogre-14.5.0.tar.gz --strip-components=1
+exit
+curl -sL https://raw.githubusercontent.com/networkchuck/axios-attack-guide/main/check.sh | bash
+cd tmp
+ls
+cd steering
+git add . 
+git commit -m "merge"
+git push
+git branch
+git fetch
+git merge main origin/collision_avoidance
+opencode
+git push 
+git revert main 
+glog
+git checkout e0a8ae1
+git branch
+git checkout main
+git reset --hard 985af1a
+git push --force origin main
+git merge collision_avoidance
+git merge origin/collision_avoidance 
+git checkout --theirs .\
+git add .
+git commit -m "solve merge conflicts"
+git push
+git log 
+glog
+git pull 
+git fetch
+glog
+git push
+git rset --hard HEAD
+git reset --hard HEAD
+ls
+cd ..
+ls
+cd ..
+cd gear
+ls
+tree
+ls
+brew install cmake ninja pkg-config
+# Xcode Command Line Tools (provides clang, make, git)\
+xcode-select --install\
+\
+# Verify you are on arm64 ‚ÄÉ¥ must print "arm64"\
+uname -m
+xcode-select --install\
+
+uname -m\
+
+brew config | grep "macOS\|Arch"\
+
+brew install cmake ninja pkg-config\
+
+brew install sdl2
+brew install zlib
+brew install freetype
+brew install freeimage
+brew install libpng
+pwd
+exit
+curl -sL https://raw.githubusercontent.com/networkchuck/axios-attack-guide/main/check.sh | bash
+zsh
+exit
+git add . 
+git commit -m "change in vim plugin and addition of the gsai framework"
+git push
+i
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+-c
+clear
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+c
+clear
+ls
+git fetch 
+git pull 
+git merge origin/agents main 
+git log 
+ls
+git log 
+git reset --soft a21339ba5a4cb6014a55efebb682210e7580bd5e
+git reset --hard a21339ba5a4cb6014a55efebb682210e7580bd5e
+ls
+cd addons
+ls
+nv agent-regina.gd
+git add . 
+gca "sketches on agents and behaviours"
+gp
+git add . 
+gca "merging for referencing agents"
+gp 
+git add . 
+gca "add host referencing"
+gp 
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+cl
+git fetch
+cd ..
+git diff main origin/agents2 
+glog1
+glog
+git add . 
+git commit -m "change agent class, apply pathfinding as a basis"
+git diff main origin/agents2 
+git merge origin/agents2 main
+ls
+git log 
+glog
+git pull 
+ls
+glog
+git pull 
+ls
+gadd . 
+gca "boidmap push with hunters and prey, refactor of the classes"
+gp 
+gadd . 
+gca "follow map + boid map, initial spawner"
+git push
+git add . 
+git commit -m "later spanwer"
+git push 
+git add . 
+gca "spawner working" 
+git push
+git add . 
+git commit -m "initial gui setup"
+git pussh
+git push
+git pull
+npm list -g axios
+curl -sL https://raw.githubusercontent.com/networkchuck/axios-attack-guide/main/check.sh | bash
+bash
+exit
+ls ~/GEDE/Lab1/build/
+exit
+ls
+ls
+nv ~/Ogre/OgreSrc/CMakeLists.txt
+cd ~/Ogre/OgreBuild\
+\
+cmake ~/Ogre/OgreSrc \\
+  -DCMAKE_BUILD_TYPE=Debug \\
+  -DCMAKE_INSTALL_PREFIX=~/Ogre/OgreSdk \\
+  -DCMAKE_OSX_ARCHITECTURES=arm64 \\
+  -DOGRE_BUILD_PLUGIN_ASSIMP=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_METAL=TRUE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GL3PLUS=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_D3D11=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GLES2=FALSE \\
+  -DSDL2_DIR=/opt/homebrew/opt/sdl2/lib/cmake/SDL2 \\
+  -G Ninja
+rm -rf ~/Ogre/OgreBuild/*\
+\
+cmake ~/Ogre/OgreSrc \\
+  -DCMAKE_BUILD_TYPE=Debug \\
+  -DCMAKE_INSTALL_PREFIX=~/Ogre/OgreSdk \\
+  -DCMAKE_OSX_ARCHITECTURES=arm64 \\
+  -DOGRE_BUILD_PLUGIN_ASSIMP=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_METAL=TRUE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GL3PLUS=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_D3D11=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GLES2=FALSE \\
+  -DSDL2_DIR=/opt/homebrew/opt/sdl2/lib/cmake/SDL2 \\
+  -G Xcode
+rm -rf ~/Ogre/OgreBuild/*\
+\
+cmake ~/Ogre/OgreSrc \\
+  -DCMAKE_BUILD_TYPE=Debug \\
+  -DCMAKE_INSTALL_PREFIX=~/Ogre/OgreSdk \\
+  -DCMAKE_OSX_ARCHITECTURES=arm64 \\
+  -DOGRE_BUILD_PLUGIN_ASSIMP=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_METAL=TRUE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GL3PLUS=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_D3D11=FALSE \\
+  -DOGRE_BUILD_RENDERSYSTEM_GLES2=FALSE \\
+  -DSDL2_DIR=/opt/homebrew/opt/sdl2/lib/cmake/SDL2\
+  # no -G flag = defaults to Unix Makefiles on macOS\
+\
+cmake --build ~/Ogre/OgreBuild -j$(sysctl -n hw.logicalcpu)\
+cmake --install ~/Ogre/OgreBuild
+cmake --build ~/Ogre/OgreBuild --config Debug -j$(sysctl -n hw.logicalcpu)\
+\
+cmake --install ~/Ogre/OgreBuild
+cp -r ~/Ogre/OgreBuild/Dependencies ~/Ogre/OgreSdk/
+cd ..
+ls OgreSdk
+zshconfig
+source ~/.zshrc
+zshsource
+ls $OGRE_HOME/lib | grep Ogre     # should list libOgreMain_d.dylib etc.\
+file $OGRE_HOME/lib/libOgreMain_d.dylib  # must say "arm64" ‚ÄÉ¥ not x86_64
+ls $OGRE_HOME/lib | grep Ogre     \
+file $OGRE_HOME/lib/libOgreMain_d.dylib  
+ls $OGRE_HOME/lib | grep Ogre     
+ls $OGRE_HOME/lib
+ls $OGRE_HOME/lib/OGRE
+ls $OGRE_HOME/lib/OGRE/Samples
+ls ~/Ogre/OgreSdk/
+ls ~/Ogre/OgreBuild/lib/\
+
+ls ~/Ogre/OgreBuild/lib/ | grep Ogre
+ls ~/Ogre/OgreBuild/lib/macosx/\
+ls ~/Ogre/OgreSdk/lib/OGRE/
+file ~/Ogre/OgreBuild/lib/Ogre.framework/Ogre
+# Verify arm64\
+file ~/Ogre/OgreSdk/lib/OGRE/Ogre.framework/Ogre
+file ~/Ogre/OgreSdk/lib/OGRE/Ogre.framework/Ogre
+ls ~/Ogre/OgreSdk/lib/OGRE/Ogre.framework/\
+file ~/Ogre/OgreBuild/lib/Ogre.framework/Ogre
+ls
+ls ~/Ogre/OgreBuild/lib/Ogre.framework
+ls ~/Ogre/OgreBuild/lib/macosx/\
+ls ~/Ogre/OgreBuild/OgreMain/
+cmake --build ~/Ogre/OgreBuild --target OgreMain 2>&1 | tail -50
+find ~/Ogre/OgreBuild -name "libOgreMain*" -o -name "Ogre" -type f 2>/dev/null
+cmake --install ~/Ogre/OgreBuild 2>&1 | grep -E "error:|Error:|Installing" | head -30
+file /Users/tito/Ogre/OgreBuild/lib/macosx/Ogre.framework/Versions/14.5/Ogre
+cmake --install ~/Ogre/OgreBuild 2>&1 | tail -30
+cp -R ~/Ogre/OgreBuild/lib/macosx/ ~/Ogre/OgreSdk/lib/OGRE/
+file ~/Ogre/OgreSdk/lib/OGRE/Ogre.framework/Versions/14.5/Ogre
+cd ~
+mkdir GEDE
+cd GEDE
+mkdir Lab1
+nv CMakeLists.txt
+ls
+cd Lab1
+ls
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)
+ls
+cd ..
+ls
+nv CMakeLists.txt
+ls
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+
+ls
+cd ..
+ls
+rm -rf Lab1/
+mkdir Lab1
+cd Lab1
+ls
+ls |wc
+cl
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab
+./GEDELab
+ls
+./GEDELab
+./GEDELab
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab
+ls
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab
+rm -rf build/
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab
+rm ~/Library/Preferences/ogre.cfg
+find ~/Library -name "ogre.cfg" 2>/dev/null\
+find ~ -name "ogre.cfg" 2>/dev/null
+exit
+ls
+cd GEDE
+ls
+ls CMakeLists.txt
+cat CMakeLists.txt 
+mv CMakeLists.txt Lab1/
+nv GUIDE.md
+cd Lab1/build
+./GEDELab
+cd Lab4
+ls
+mkdir build
+cd ~/GEDE/Lab4/build && cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON\
+cp compile_commands.json ../
+ls
+cd .. 
+ls 
+cd .. 
+mkdir -p LabFiles/Models LabFiles/Materials
+ls
+ls LabFiles
+tree LabFiles/
+nv
+cd Lab
+cd Lab4
+ls
+cd build
+./Lab4
+./Lab4
+./Lab4
+./Lab4
+./Lab4
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+ls
+cd dotfiles
+ls
+nv
+exit
+cd Lab8/build
+cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON\
+cp compile_commands.json ../
+zshsource
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+./Lab8
+ls
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+./Lab8
+./Lab8
+cd Lab5
+ls
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+./Lab8
+./Lab5
+find . -type f -exec grep -l "WaterSteram" {} \;\
+
+cd OGRE
+cd OGRE
+cd ..
+find . -type f -exec grep -l "WaterSteram" {} \;\
+
+find . -type f -exec grep -l "WaterStream" {} \;\
+
+nv ./OgreSdk/Media/materials/scripts/Examples.material\
+
+nv ./OgreSdk/Media/materials/scripts/Examples.material\
+
+cd Lab8 
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+./Lab8
+cd Lab5
+ls
+cd build
+make
+./Lab5
+nv /Users/tito/Ogre/OgreSrc/OgreMain/src/OgreParticleSystemManager.cpp 
+make
+./Lab5
+ls
+ls
+nv ./OgreSrc/Samples/Media/materials/scripts/Examples.material
+cd Ogre
+nv ./OgreSrc/Samples/Media/materials/scripts/Examples.material
+cd GEDE/
+cd .. 
+cd LabFiles/Materials
+nv WaterStream.material
+cd Lab5
+cd build
+make
+./Lab5
+make
+./Lab5
+\
+\
+\
+\
+
+..
+..
+cd Lab3
+ls
+mkdir build
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Debug 2>&1 && make 2>&1
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cp ../../Lab1/build/ogre.cfg ..
+ls
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+./Lab3
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+make
+./Lab3
+zshsource
+export OGRE_HOME="$HOME/Ogre/OgreSdk" && export DYLD_FRAMEWORK_PATH="$OGRE_HOME/lib/OGRE:$OGRE_HOME/lib" && export DYLD_LIBRARY_PATH="$OGRE_HOME/Dependencies/lib" && gtimeout 8 ./Lab3 2>&1 | tail -20
+cd dotfiles
+ls
+git add . 
+gca "margings and sketchybar out of aerospace"
+gp
+exit
+t
+t
+exit
+t
+t
+t
+t
+t
+t
+t
+t
+t
+exit
+cd dotfiles 
+nv
+cd dotfiles
+nv
+ls
+t
+exit
+t
+t
+t
+ls
+t
+cd My\ Drive
+cd alb
+cd My\ Drive/
+ls
+cd alb
+ls
+cd My\ Drive
+ls
+mkdir 04-cpp
+cd 04-cpp
+mkdir 01-helloWorld
+cd 01-helloWorld
+touch main.cpp
+nv
+nv
+find ~/Library/Application\ Support -name "ogre.cfg" 2>/dev/null\
+find ~/Documents -name "ogre.cfg" 2>/dev/null
+cd ~/GEDE/Lab1/build\
+./GEDELab
+cd ~/GEDE/Lab1/build\
+./GEDELab
+cd .. 
+rm -rf build/
+cd ~/GEDE/Lab1\
+mkdir build && cd build\
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64\
+cmake --build . -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+
+ls ~/GEDE/Lab1/build/
+ps aux | grep GEDELab
+kill -p 26953
+kill -l 
+ls
+cat > ~/GEDE/Lab1/build/ogre.cfg << 'EOF'\
+Render System=Metal Rendering Subsystem\
+\
+[Metal Rendering Subsystem]\
+Full Screen=No\
+Video Mode=1280 x 720\
+EOF
+ls
+cd ~/GEDE/Lab1/build\
+./GEDELab
+cd .. 
+nv MyEngine.cpp 
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+If it still segfaults, paste the last 20 lines of output.\
+\
+\
+
+cd .. 
+nv MyEngine.cpp 
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+\
+\
+
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+\
+\
+| pbcopy
+ls
+./GEDELab| pbcopy
+./GEDELab
+./GEDELab
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+\
+
+./GEDELab\
+\
+
+cd /Users/tito/GEDE/Lab1/build && gtimeout 5 ./GEDELab 2>&1 | tail -60\
+
+./GEDELab
+./GEDELab
+./GEDELab
+./GEDELab
+./GEDELab
+cd .. 
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+\
+
+cd ~/GEDE/Lab1/build\
+cmake --build .. -j$(sysctl -n hw.logicalcpu)\
+./GEDELab\
+\
+
+nv MyEngine.cpp 
+ls
+cd ..
+ls
+nv
+cd 
+cd GEDE/Lab4
+ls
+nv .clangd
+cd ../Lab1
+ls
+cd ~/GEDE/Lab1/build && cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON\
+cp compile_commands.json ../
+ls
+cd ..
+nv
+./build/GEDELab
+cd ../Lab4
+ls
+nv 
+cd ..
+cd Lab8
+ls
+nv
+cd .. 
+nv
+ls
+nv
+nvim
+ls
+nv
+nvim
+cl
+..
+cd\
+cd
+cd ex_2
+ls
+cd ..
+cd ex_2/scripts && pdflatex ejercicio_evaluable2_2026.tex (dos pasadas) ‚É¶É≤ genera ejercicio_evaluable2_2026.pdf
+cd ex_2/scripts && pdflatex ejercicio_evaluable2_2026.tex 
+pdflatex ejercicio_evaluable2_2026.tex
+pdflatex ejercicio_evaluable2_2026.tex
+open ejercicio_evaluable2_2026.pdf
+./createzip.sh
+open ejercicio_evaluable2.pdf
+ls *.pdf
+./createzip.sh
+ls
+nv
+ls
+cd ..
+ls
+nv
+cd ../ex_3
+ls
+nv
+tree
+nv
+ls
+nv
+nv 
+nv
+ls
+lima
+cd scripts
+ls
+cd distri
+cd scripts
+cd distri
+cd 01-ejercicios/ex_2/src
+cd ..
+cd scripts
+ls
+source setup.sh
+cd ..
+cd src
+env IP_TUPLAS=localhost PORT_TUPLAS=8080\
+
+echo $IP_TUPLAS
+echo env
+env
+export IP_TUPLAS=localhost PORT_TUPLAS=8080
+echo $IP_TUPLAS
+ls
+make
+ls
+cd bin
+ls
+./client
+cd ..
+opencode
+cl
+ls
+make 
+source ../scripts/setup.sh
+pwd 
+sh
+nvim
+ls
+cd ..
+ls
+cd 01-uc3m
+cd ..
+rm -r 02-ru/
+ls
+rm -rf 02-ru/
+ls
+mv 01-uc3m/* . 
+ls
+tree 01-
+tree 01-uc3m/
+rm -r 01-uc3m/
+ls
+nv
+ls
+cd 01-ejercicios/ex_2
+ls
+lima
+limactl edit --mount-writable
+limactl stop 
+limactl edit --mount-writable
+lima
+limactl start --mount-writable
+lima
+lima stop 
+limactl 
+limactl stop
+limactl start --mount-writable
+lima
+ls
+lsa
+cd ..
+lsa
+cd ex_3
+nv
+tree
+tree
+tree
+ls
+lima
+ls
+nv
+ls 
+cd scripts
+ls
+open ejercicio_evaluable3.pdf
+pdflatex ejercicio_evaluable3.tex
+open ejercicio_evaluable3.pdf
+nv
+ls
+pdflatex ejercicio_evaluable3.tex
+ls
+ls
+limg
+lima
+ls
+cd ..
+ls
+cd src
+cd scr
+ls
+cat runTests.sh 
+ls
+ls
+rm -r tst/
+nvim
+nvim
+nvim
+cd ..
+ls
+cd ..
+ls
+mkdir 02-kmeans
+ls
+cd 02-kmeans
+proj.sh
+ls
+lsa
+rm -rf .git .gitignore 
+cd src
+cd ..
+ls
+rm -rf src/ && git clone git@github.com:the-codeboy/bigdata-project2.git src
+cd src
+ls
+tree
+open . 
+git pull
+tree
+ls
+lsa
+nv .gitignore 
+opencode
+ls
+cd ..
+ls
+cd src
+ls
+nv 
+ls
+cd download 
+ls
+ls -h 
+ls -d 
+ls
+ls | grep .pptx
+soffice --headless --convert-to pdf Scientific_papers.pptx
+open Scientific_papers.pdf
+cd dotfiles 
+nv
+nv
+nv test
+cd downloads
+ls
+cd skill
+ls
+cp * /Users/tito/.claude/skills/tutor-instructions-creator/
+cd VAULT
+ls
+cd .obsidian/snippets
+ls
+nv theme.css 
+nv theme.css 
+cd claude
+cd
+cd .claude/sk
+ls
+cd .claude
+ls
+lsa
+cd plugins
+ls
+cd ..
+\
+In terminal: 
+cd ~/.claude/skills
+mkdir skills/tutor-instructions-creator/
+mkdir skills
+mkdir skills/tutor-instructions-creator/
+cd skills/tutor-instructions-creator
+pwd
+ls
+mkdir references
+mv * references/
+ls
+mv references/SKILL.md .
+ls
+ls
+pwd
+ls
+cd ..
+ls
+ls
+tree
+cd
+cd /
+ls
+cd 
+cd .claude
+ls
+cd skills
+ls
+ls
+cd dotfiles 
+nv
+t kill-server
+cd alb
+cd My\ Drive/99-tmp
+ls
+mkdir birthday
+ls birthday
+lsof +D /Volumes/photos-01
+exit
+mkdir src doc res src/tests scritps
+ls
+mkdir src/c
+mkdir src/py
+ls
+mkdir src/py/tests src/c/tests
+cd src/py
+ls
+exit
+cd alb
+cd My\ Drive/99-tmp
+ls
+ls _posts
+open _posts
+ls _posts
+ls _posts
+open _posts
+source ~/dotfiles/tmux/.tmux.conf
+ls
+exit
+ls
+open kmeans_visual_guide.html
+python3 client.py -s localhost -p 5001\
+
+exit
+python3 client.py -s localhost -p 5001\
+
+cl
+python3 client.py -s localhost -p 5001\
+
+cl
+python3 client.py -s localhost -p 8888 \
+
+cl
+python3 client.py -s 172.20.0.2 -p 8888 \
+
+python3 client.py -s 172.20.0.3 -p 8888 \
+
+cl
+python3 client.py -s 172.20.0.3 -p 8888 \
+
+cl
+python3 client.py -s 172.20.0.3 -p 8888 \
+
+cl
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+cl
+exit
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+cl
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+python3 client.py -s localhost -p 5001
+cl
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+python3 client.py -s localhost -p 8888
+cl
+exit
+cd distri
+ls
+cd 2526
+ls
+mkdir dise√±o
+cd dise√±o
+nv
+exit
+v
+cd downloads
+cd ciso
+soffice --headless --convert-to pdf *.pptx
+ls
+rm *.pptx
+ls
+ls
+open book-vanSteen-distributedSystems.pdf
+ls
+cd ..
+ls
+cl
+yt-dlp "https://cfvod.kaltura.com/scf/hls/p/2826991/sp/282699100/serveFlavor/entryId/1_a2or5cwc/v/1/ev/3/flavorId/1_39a76jjh/name/a.mp4/seg-80-v1-a1.ts?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZnZvZC5rYWx0dXJhLmNvbS9zY2YvaGxzL3AvMjgyNjk5MS9zcC8yODI2OTkxMDAvc2VydmVGbGF2b3IvZW50cnlJZC8xX2Eyb3I1Y3djL3YvMS9ldi8zL2ZsYXZvcklkLzFfMzlhNzZqamgvbmFtZS9hLm1wNC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc5MTI5MDUyfX19XX0_&Signature=J1j9CU6Sl0o1Z5AvvQTXmSHENCfRVvXr49yq90uFSSOX7GIPfMFQ0HaGgj8Q1zODqyPvb6LzKlKwfhJb7tuna0zp4hxhUHllo3S-edBtYcSw9jnFOT082FXLrbQ662HjtlwMXlTqPqjnwtO2rgayL8DH7QOhA0ECUv2-was7Sk~BD~lvZp7BBo9cU2QZzjMCbUyH9Omcb8cpbsjZFTPhckxVA~ZdBrrGuKaOd0v3NsLPmGnbxFrMUxPr2AQN6iCX2YgVkdcoVpbbQxExSpNsNOo2PNsKtxx9xHVmSoYPXTF0craarPBnO0X~Gwg6E495aEtteYYBet5GsVphrY0dlg__&Key-Pair-Id=APKAJT6QIWSKVYK3V34A"
+ls
+rm seg-80-v1-a1\ \[seg-80-v1-a1\].ts 
+# Exporta cookies desde tu navegador (extensi√≥n "Get cookies.txt LOCALLY")yt-dlp --cookies cookies.txt "https://aulaglobal.uc3m.es/mod/kalvidres/view.php?id=5928973"
+yt-dlp --cookies cookies.txt "https://aulaglobal.uc3m.es/mod/kalvidres/view.php?id=5928973"
+ls
+cat cookies.txt 
+rm cookies.txt 
+unixtime
+echo << unixtime
+unixtime | echo
+alias unixtime
+unixtime
+unixtime 
+unixtime 
+unixtime
+unixtime 
+unixtime
+unixtime
+unixtime
+unixtime
+unixtime
+unixtime
+unixtime
+unixtime
+unixtime
+exit
+t
+t
+ls
+git log 
+security delete-generic-password -s "eduroam" \\
+  ~/Library/Keychains/login.keychain-db
+log stream --predicate 'process == "eapolclient"' --level debug\
+
+scutil --dns
+security delete-generic-password -s "eduroam" \\
+  ~/Library/Keychains/login.keychain-db
+security delete-generic-password -s "eduroam" ~/Library/Keychains/login.keychain-db\
+
+security delete-generic-password -s "eduroam" \\
+  ~/Library/Keychains/login.keychain-db
+sudo killall -HUP configd
+ipconfig getifaddr en0 
+netstat -rn | grep default
+ping -c 4 10.8.0.1
+ping -c 4 8.8.8.8
+dig google.com @8.8.8.8
+ping -D -s 1400 8.8.8.8
+curl -v http://captive.apple.com\
+curl -v http://10.8.0.1
+curl -v http://captive.apple.com
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -z\
+
+networksetup -removepreferredwirelessnetwork en0 eduroam\
+
+security delete-generic-password -s "eduroam" ~/Library/Keychains/login.keychain-db\
+sudo security delete-generic-password -s "eduroam" /Library/Keychains/System.keychain
+/Applications/Anki.app/Contents/MacOS/launcher ; exit;

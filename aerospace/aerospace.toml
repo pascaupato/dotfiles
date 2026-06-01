@@ -52,8 +52,6 @@ run = 'layout floating'
 if.app-name-regex-substring = 'finder'
 run = 'layout floating'
 
-# Possible values: (qwerty|dvorak)
-# See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
 [key-mapping]
 preset = 'qwerty'
 
@@ -105,7 +103,7 @@ outer.right =      15
 # '''
 
 alt-shift-f = 'fullscreen'
-alt-ctrl-f = 'layout floating'
+alt-shift-t = 'layout floating'
 
 alt-shift-left = 'join-with left'
 alt-shift-down = 'join-with down'
@@ -168,6 +166,8 @@ alt-d = 'exec-and-forget open -a /Applications/Todoist.app'
 alt-f = 'exec-and-forget open -a /System/Library/CoreServices/Finder.app'
 alt-i = 'exec-and-forget open -a /Applications/Claude.app'
 
+
+
 # Move windows automatically to their assigned space when opened
 [[on-window-detected]]
     if.app-id = 'com.mitchellh.ghostty'
@@ -180,10 +180,10 @@ alt-i = 'exec-and-forget open -a /Applications/Claude.app'
 [[on-window-detected]]
     if.app-id = 'com.apple.Safari'
     run = 'move-node-to-workspace 3'
+
 [[on-window-detected]]
     if.app-id = 'com.anthropic.claudefordesktop'
     run = 'layout floating'
-  
 
 [[on-window-detected]]
     if.app-id = 'com.todoist.mac.Todoist'
@@ -210,12 +210,3 @@ alt-i = 'exec-and-forget open -a /Applications/Claude.app'
     run = 'move-node-to-workspace 7'
 
 
-# 'service' binding mode declaration.
-# See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
-[mode.service.binding]
-esc = ['reload-config', 'mode main']
-r = ['flatten-workspace-tree', 'mode main'] # reset layout
-f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
-backspace = ['close-all-windows-but-current', 'mode main']
-
-[mode.apps.binding]

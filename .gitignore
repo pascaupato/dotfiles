@@ -2,3 +2,5 @@
 .zsh_history
 .zcompdump
 AGENTS.md
+.zsh_sessions/*
+

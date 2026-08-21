@@ -1,13 +1,23 @@
+# Standar theme
 theme=TokyoNight
+
 font-size = 16
-background-blur-radius = 20
+
+
+# Several fonts with fallback
 font-family = "Monaspace Argon","Iosevka","JetBrains Mono"
+
+# WINDOW APPEARANCE
+# outside
 mouse-hide-while-typing = true
 macos-option-as-alt = false
 macos-titlebar-style = hidden
 macos-titlebar-proxy-icon = hidden
 title = "ghostty"
 gtk-titlebar = false
+# inside
 window-padding-x = 10
 window-padding-y = 15
+
+
 auto-update = download

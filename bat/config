@@ -1,7 +1,7 @@
 # This file contains the configuration for the bat command
 
 # Set the theme to "ansi"
---theme="ansi"
+--theme="Nord"
 
 # What to show
---style="numbers,changes,header"
+--style="numbers,changes,header,header-filesize"

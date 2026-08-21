@@ -7,10 +7,6 @@
 # ENV
 # ===
 
-# Ogre3D SDK
-export OGRE_HOME="$HOME/Ogre/OgreSdk"
-export DYLD_LIBRARY_PATH="$OGRE_HOME/lib:$OGRE_HOME/Dependencies/lib:$DYLD_LIBRARY_PATH"
-export PATH="$OGRE_HOME/bin:/opt/homebrew/bin:$PATH"
 
 # PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH"
@@ -32,19 +28,17 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # scripts
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 source $XDG_CONFIG_HOME/scripts/processing.zsh
-#source $XDG_CONFIG_HOME/scripts/theme.sh
-#set_global_theme
-#alias theme='change_global_theme'
 
-# bat
-# use bat as the pager for man pages
+# use bat as the pager for man and help pages
 export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"
+alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
+alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
 # other
 export XDG_CONFIG_HOME="$HOME/.config"
 export MANPATH=$MANPATH:/opt/homebrew/share/man
 export DOTFILES="$HOME/dotfiles"
-export ZSH="$DOTFILES/zsh"
+export ZSH="$DOTFILES/zshrc"
 export EDITOR="/opt/homebrew/bin/nvim"
 export FUNCNEST=100000
 # colors in tmux
@@ -79,7 +73,7 @@ alias gcoall='git checkout -- .'
 alias gr='git remote'
 alias gre='git reset'
 
-# Dirs
+# Dirs. Two for parent. One extra for each extra level. 
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -88,8 +82,6 @@ alias ......="cd ../../../../.."
 
 # bat
 alias cat="bat"
-alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
-alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
 # remote
 alias guernika="ssh -p 22 a0495775@guernika.lab.inf.uc3m.es"
@@ -116,7 +108,6 @@ alias cd="z"
 # other
 alias findwifipass="security find-generic-password -wa"
 alias unixtime="date +%s |pbcopy"
-#alias pandoc="pandoc -V geometry:\"top=3cm, bottom=4cm, left=2.5cm, right=3cm\""
 
 
 # ===

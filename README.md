@@ -14,7 +14,7 @@ Personal collection of dotfiles. I use these tools.
 
 - **Git** -> One file for configuring git profiles. Another one for folders to ignore on all repos (AI settings). One final file with an small script meant to automate the generation of ssh keys using `ssh-keygen`, `ssh-agent` and `ssh-add`.
 
-- **homebrew/leaves.txt** -> Paquetes que
+- **homebrew/leaves.txt** -> Paquetes que tengo descargados a través de homebrew. (Debería de revisarme esto pq no querría descargármelos todos en un futuro)
 
 ## Theme
 

@@ -12,6 +12,8 @@ Personal collection of dotfiles. I use these tools.
 - **Ghostty** -> The current terminal emulator I use. Config changes the theme, font and window appearance.
   - Reload the config with `cmd+shift+,`
 
+- **Git** -> One file for configuring git profiles. Another one for folders to ignore on all repos (AI settings). One final file with an small script meant to automate the generation of ssh keys using `ssh-keygen`, `ssh-agent` and `ssh-add`.
+
 ## Theme
 
 Going towards a bluish theme mixed with tokyonight as a default for anything new not to overthink it.

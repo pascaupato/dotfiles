@@ -1,7 +1,8 @@
 # Standar theme
 theme=TokyoNight
 
-font-size = 16
+# Crazy big size so that I wont lose my eyes
+font-size = 22
 
 
 # Several fonts with fallback

@@ -1,36 +1,5 @@
+# This is Git's per-user configuration file.
 [user]
-	name = tito 
-	email = alb.pascau@gmail.com  
-[core]
-	autocrlf = input
-	excludesfile = /Users/tito/.gitignore_global
-[remote "origin"]
-	proxy = 
-	proxy = 
-	proxy = 
-[init]
-	defaultBranch = main
-[color]
-	ui = auto
-[pull]
-	rebase = false
-[gpg]
-	format = openpgp
-	program = gpg
-[commit]
-	gpgSign = false
-[tag]
-	forceSignAnnotated = false
-[gpg "ssh"]
-	program = ssh-keygen
-    allowedSignersFile = ""
-
-[alias]
-    lg = lg1
-    lg1 = lg1-specific --all
-    lg2 = lg2-specific --all
-    lg3 = lg3-specific --all
-
-    lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
-    lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
-    lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+# Please adapt and uncomment the following lines:
+name = Alberto Pascau
+email = alb.pascau@gmail.com

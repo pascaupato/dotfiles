@@ -46,6 +46,7 @@ freeimage
 freetype
 fribidi
 fzf
+fzf-tab
 gcc
 gdb
 gdk-pixbuf

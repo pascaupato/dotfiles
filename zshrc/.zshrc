@@ -115,6 +115,8 @@ autoload -Uz compinit
 compinit
 
 # fzf
+# colors adapt to the terminal theme (fg/bg left as-is), accents for interactive elements
+export FZF_DEFAULT_OPTS="--color=fg:-1,bg:-1,fg+:-1,bg+:-1,hl:cyan,hl+:cyan,info:blue,prompt:green,pointer:magenta,marker:yellow,spinner:cyan,header:blue,border:cyan,label:cyan"
 eval "$(fzf --zsh)"
 
 # zoxide
@@ -132,8 +134,13 @@ eval "$(tv init zsh)"
 # PLUGINS:
 # - without a package manager
 # - using carapace for smarter completions
+# - fzf-tab for a boxed/colorized completion menu
 # - format the completions manually (:completion*)
 # ===
+
+# fzf-tab
+# NOTE: must load after compinit, but before plugins that wrap zle widgets (autosuggestions, syntax-highlighting)
+source "$(brew --prefix)/share/fzf-tab/fzf-tab.zsh"
 
 # autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -152,10 +159,15 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # NOTE: must be loaded AFTER compinit
 export CARAPACE_BRIDGES='zsh'
 zstyle ':completion:*' menu select=2
-zstyle ':completion:*' format '%F{white}Completing %d...%f'
+zstyle ':completion:*:descriptions' format '%F{white}[%d]%f'
 export LS_COLORS="di=34:fi=15:ln=36:pi=33:so=35:do=33:bd=33:cd=33:ex=32"
-zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}  
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 source <(carapace _carapace)
+
+# fzf-tab display: boxed popup, bordered, capped to terminal height
+zstyle ':fzf-tab:*' fzf-flags '--border' '--height=40%' '--layout=reverse'
+# preview pane for file/dir completions, using the same tools already used elsewhere (lsd, bat)
+zstyle ':fzf-tab:complete:*:*' fzf-preview 'if [[ -d $realpath ]]; then lsd --color=always $realpath; elif [[ -f $realpath ]]; then bat --color=always --style=numbers --line-range=:200 $realpath; fi'
 
 
 # ===

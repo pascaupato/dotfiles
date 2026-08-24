@@ -92,7 +92,6 @@ alias cl='clear'
 alias t="tmux"
 alias f="fzf"
 alias nv="nvim"
-alias ov="NVIM_APPNAME=ovim nvim"
 alias ls="lsd"
 alias ll="lsd -l"
 alias lsa="lsd -la"
@@ -163,5 +162,3 @@ source <(carapace _carapace)
 
 # delete whole line with cmd + backspace
 bindkey '^U' backward-kill-line  
-# set vi mode
-set -o vi

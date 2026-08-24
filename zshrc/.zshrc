@@ -10,24 +10,19 @@
 
 # PATH
 export PATH="/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH"
-
+export PATH="/Users/tito/.local/bin:$PATH"
 # obsidian
 export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-
 # homebrew
 export PATH="/opt/homebrew/opt/python@2/libexec/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
-
 # rust
 export PATH="/Users/tito/.cargo/bin:$PATH"
-
 # go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
 # scripts
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
-source $XDG_CONFIG_HOME/scripts/processing.zsh
 
 # use bat as the pager for man and help pages
 export MANPAGER="sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"

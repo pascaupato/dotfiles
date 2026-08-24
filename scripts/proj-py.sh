@@ -21,7 +21,7 @@ touch makefile
 # TODO: Future updates, right now i dont really know how to do this, right now i dont really know how to do this
 
 # Init venv
-python3 -m venv venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 

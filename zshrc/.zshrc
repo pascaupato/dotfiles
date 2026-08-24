@@ -22,6 +22,7 @@ export PATH="/Users/tito/.cargo/bin:$PATH"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # scripts
+export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
 
 # use bat as the pager for man and help pages
@@ -30,10 +31,10 @@ alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
 # other
-export XDG_CONFIG_HOME="$HOME/.config"
 export MANPATH=$MANPATH:/opt/homebrew/share/man
 export DOTFILES="$HOME/dotfiles"
 export ZSH="$DOTFILES/zshrc"
+# Esto pone zsh automáticamente en vi mode.  
 export EDITOR="/opt/homebrew/bin/nvim"
 export FUNCNEST=100000
 # colors in tmux
@@ -108,6 +109,11 @@ alias unixtime="date +%s |pbcopy"
 # PACKAGES:
 # ===
 
+# zsh completion system
+# NOTE: must run before any tool init below (fzf/zoxide/tv) that registers its own completions via compdef
+autoload -Uz compinit
+compinit
+
 # fzf
 eval "$(fzf --zsh)"
 
@@ -128,10 +134,6 @@ eval "$(tv init zsh)"
 # - using carapace for smarter completions
 # - format the completions manually (:completion*)
 # ===
-
-# zsh completion system
-autoload -Uz compinit
-compinit
 
 # autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -159,6 +161,10 @@ source <(carapace _carapace)
 # ===
 # OTHER:
 # ===
-
+# fixing the vi mode
+bindkey -v
+export KEYTIMEOUT=1
+bindkey -M viins '^?' backward-delete-char
+bindkey -M viins '^H' backward-delete-char
 # delete whole line with cmd + backspace
 bindkey '^U' backward-kill-line  

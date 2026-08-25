@@ -38,6 +38,9 @@ return {
     },
     picker = {
       sources = {
+        files = {
+          layout = { preset = "default" },
+        },
         explorer = {
           actions = {
             bufadd = function(_, item)

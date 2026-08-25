@@ -183,7 +183,7 @@ alt-n = 'exec-and-forget open -a /Applications/Anki.app/'
     run = 'layout floating'
 
 [[on-window-detected]]
-    if.app-id = 'com.todoist.mac.Todoist'
+    if.app-id = 'com.apple.reminders'
     run = 'move-node-to-workspace 4'
 
 [[on-window-detected]]
